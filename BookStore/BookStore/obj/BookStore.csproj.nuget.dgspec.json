@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Desktop\\udemy\\dotNetMastery\\BookStore\\BookStore\\BookStore.csproj": {}
+    "C:\\Users\\User\\Desktop\\udemy\\dotNetMastery\\DotNetMasteryUdemyCourse\\BookStore\\BookStore\\BookStore.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Desktop\\udemy\\dotNetMastery\\BookStore\\BookStore\\BookStore.csproj": {
+    "C:\\Users\\User\\Desktop\\udemy\\dotNetMastery\\DotNetMasteryUdemyCourse\\BookStore\\BookStore\\BookStore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\udemy\\dotNetMastery\\BookStore\\BookStore\\BookStore.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\udemy\\dotNetMastery\\DotNetMasteryUdemyCourse\\BookStore\\BookStore\\BookStore.csproj",
         "projectName": "BookStore",
-        "projectPath": "C:\\Users\\User\\Desktop\\udemy\\dotNetMastery\\BookStore\\BookStore\\BookStore.csproj",
+        "projectPath": "C:\\Users\\User\\Desktop\\udemy\\dotNetMastery\\DotNetMasteryUdemyCourse\\BookStore\\BookStore\\BookStore.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Desktop\\udemy\\dotNetMastery\\BookStore\\BookStore\\obj\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\udemy\\dotNetMastery\\DotNetMasteryUdemyCourse\\BookStore\\BookStore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -44,9 +44,25 @@
               "target": "Package",
               "version": "[7.0.0, )"
             },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[7.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.10, )"
             }
           },
           "imports": [

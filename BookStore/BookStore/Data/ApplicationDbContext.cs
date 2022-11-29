@@ -9,6 +9,6 @@ namespace BookStore.Data
         {
             
         }
-        public DbSet<Category> Catergories { get; set; }
+        public DbSet<Category> Categories { get; set; }
     }
 }
